@@ -1,0 +1,5411 @@
+{
+  "summary": {
+    "backend": "meta_api",
+    "n_pages": 50,
+    "n_compared_pages": 42,
+    "n_failed": 0,
+    "cells_compared": 189,
+    "cells_matched": 189,
+    "cell_match_rate": 1.0,
+    "perfect_pages": 25,
+    "by_scope": {
+      "precinct": {
+        "n_pages": 40,
+        "n_compared_pages": 40,
+        "cells_compared": 179,
+        "cells_matched": 179,
+        "cell_match_rate": 1.0,
+        "perfect_pages": 23
+      },
+      "early": {
+        "n_pages": 10,
+        "n_compared_pages": 2,
+        "cells_compared": 10,
+        "cells_matched": 10,
+        "cell_match_rate": 1.0,
+        "perfect_pages": 2
+      }
+    },
+    "note": "Live SAM 3.1 table boxes + geometric column derivation (rightmost dense numeric cluster). Guards: nearest-number recovery + gemini cross-check abstention."
+  },
+  "pages": [
+    {
+      "page_id": "e21_gyeonggi_39112_p051",
+      "region": "gyeonggi",
+      "district": "수원시권선구(39112)",
+      "precinct_csv": "세류2동제2투",
+      "image_url": "gs://k21-tally-archive/gyeonggi/39112/p-051.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5951612903225807,
+          "y0": 0.21949828962371723,
+          "x1": 0.9508064516129032,
+          "y1": 0.2879133409350057,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.03951612903225806,
+          "y0": 0.7748004561003421,
+          "x1": 0.9475806451612904,
+          "y1": 0.863740022805017,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5943548387096774,
+          "y0": 0.3261117445838084,
+          "x1": 0.95,
+          "y1": 0.5969213226909921,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.041935483870967745,
+          "y0": 0.6505131128848347,
+          "x1": 0.9483870967741935,
+          "y1": 0.7177879133409351,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.2160775370581528,
+          "x1": 0.5870967741935483,
+          "y1": 0.2862029646522235,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.3221208665906499,
+          "x1": 0.5854838709677419,
+          "y1": 0.5946408209806158,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79903227,
+        0.8687097
+      ],
+      "extracted": {
+        "이재명": 556,
+        "김문수": 713,
+        "이준석": 109,
+        "권영국": 13,
+        "송진호": 0
+      },
+      "notes": [],
+      "district_key": "경기도|수원시권선구",
+      "unit_match": {
+        "unit": [
+          "경기도",
+          "수원시권선구",
+          null,
+          "세류2동제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 556,
+        "김문수": 713,
+        "이준석": 109,
+        "권영국": 13,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_jeonbuk_39204_p017",
+      "region": "jeonbuk",
+      "district": "전주시완산구",
+      "precinct_csv": "서서학동제2투",
+      "image_url": "gs://k21-tally-archive/jeonbuk/39204/p-017.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.05,
+          "y0": 0.7810718358038768,
+          "x1": 0.9524193548387097,
+          "y1": 0.8654503990877993,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6008064516129032,
+          "y0": 0.3278221208665906,
+          "x1": 0.9508064516129032,
+          "y1": 0.5974914481185861,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.6,
+          "y0": 0.22291904218928163,
+          "x1": 0.95,
+          "y1": 0.290193842645382,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.049193548387096775,
+          "y0": 0.6556442417331813,
+          "x1": 0.9516129032258065,
+          "y1": 0.7183580387685291,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04758064516129032,
+          "y0": 0.22405929304446978,
+          "x1": 0.589516129032258,
+          "y1": 0.2913340935005701,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.049193548387096775,
+          "y0": 0.3289623717217788,
+          "x1": 0.589516129032258,
+          "y1": 0.5992018244013683,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7982258,
+        0.86467743
+      ],
+      "extracted": {
+        "이재명": 581,
+        "김문수": 109,
+        "이준석": 40,
+        "권영국": null,
+        "송진호": 1
+      },
+      "notes": [
+        "권영국: recovered via nearest number row",
+        "권영국: second-engine disagreement (docai 1 vs gemini 12), abstained"
+      ],
+      "district_key": "전북특별자치도|전주시완산구",
+      "unit_match": {
+        "unit": [
+          "전북특별자치도",
+          "전주시완산구",
+          null,
+          "서서학동제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 581,
+        "김문수": 109,
+        "이준석": 40,
+        "권영국": 12,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": null,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_seoul_39059_p078",
+      "region": "seoul",
+      "district": "강동구",
+      "precinct_csv": "천호제1동제3투",
+      "image_url": "gs://k21-tally-archive/seoul/39059/p-078.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.7759407069555302,
+          "x1": 0.9483870967741935,
+          "y1": 0.8614595210946409,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5967741935483871,
+          "y0": 0.3244013683010262,
+          "x1": 0.9483870967741935,
+          "y1": 0.5940706955530216,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5959677419354839,
+          "y0": 0.21949828962371723,
+          "x1": 0.9491935483870968,
+          "y1": 0.2856328392246294,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.6516533637400228,
+          "x1": 0.9483870967741935,
+          "y1": 0.7137970353477765,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.21835803876852908,
+          "x1": 0.5862903225806452,
+          "y1": 0.2856328392246294,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.3238312428734322,
+          "x1": 0.5862903225806452,
+          "y1": 0.5929304446978335,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78935486,
+        0.8767742000000001
+      ],
+      "extracted": {
+        "이재명": 609,
+        "김문수": 804,
+        "이준석": 144,
+        "권영국": 28,
+        "송진호": null
+      },
+      "notes": [
+        "송진호: recovered via nearest number row",
+        "송진호: second-engine disagreement (docai 10 vs gemini 1), abstained"
+      ],
+      "district_key": "서울특별시|강동구",
+      "unit_match": {
+        "unit": [
+          "서울특별시",
+          "강동구",
+          null,
+          "천호제1동제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 609,
+        "김문수": 804,
+        "이준석": 144,
+        "권영국": 28,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": null
+      }
+    },
+    {
+      "page_id": "e21_gangwon_39167_p004",
+      "region": "gangwon",
+      "district": "홍천군",
+      "precinct_csv": "내촌면",
+      "image_url": "gs://k21-tally-archive/gangwon/39167/p-04.jpg",
+      "docai_cached": true,
+      "scope": "early",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.603225806451613,
+          "y0": 0.32857957786651454,
+          "x1": 0.9548387096774194,
+          "y1": 0.6001140901312036,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6008064516129032,
+          "y0": 0.22304620650313747,
+          "x1": 0.9540322580645161,
+          "y1": 0.2903593839132915,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.050806451612903224,
+          "y0": 0.22418710781517398,
+          "x1": 0.5911290322580646,
+          "y1": 0.29092983456930976,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.050806451612903224,
+          "y0": 0.6577296063890473,
+          "x1": 0.957258064516129,
+          "y1": 0.7204791785510554,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.05161290322580645,
+          "y0": 0.7832287507130633,
+          "x1": 0.957258064516129,
+          "y1": 0.8739304050199658,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.05161290322580645,
+          "y0": 0.32857957786651454,
+          "x1": 0.5919354838709677,
+          "y1": 0.6001140901312036,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79580646,
+        0.86145163
+      ],
+      "extracted": {
+        "이재명": null,
+        "김문수": 333,
+        "이준석": null,
+        "권영국": 10,
+        "송진호": null
+      },
+      "notes": [
+        "이준석: recovered via nearest number row",
+        "송진호: recovered via nearest number row",
+        "이재명: second-engine disagreement (docai 9311 vs gemini 311), abstained",
+        "이준석: second-engine disagreement (docai 10 vs gemini 41), abstained",
+        "송진호: second-engine disagreement (docai 13 vs gemini 1), abstained"
+      ],
+      "district_key": "강원특별자치도|홍천군",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_incheon_39090_p066",
+      "region": "incheon",
+      "district": "부평구",
+      "precinct_csv": "갈산1동제1투",
+      "image_url": "gs://k21-tally-archive/incheon/39090/p-066.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04754230459307011,
+          "y0": 0.7868945868945869,
+          "x1": 0.9452054794520548,
+          "y1": 0.8723646723646724,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5954875100725222,
+          "y0": 0.3339031339031339,
+          "x1": 0.9443996776792909,
+          "y1": 0.6045584045584046,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5938759065269944,
+          "y0": 0.2284900284900285,
+          "x1": 0.9443996776792909,
+          "y1": 0.2951566951566952,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.048348106365834004,
+          "y0": 0.22792022792022792,
+          "x1": 0.5858178887993554,
+          "y1": 0.2951566951566952,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04754230459307011,
+          "y0": 0.6626780626780627,
+          "x1": 0.9460112812248187,
+          "y1": 0.7264957264957265,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499597099113618,
+          "y0": 0.33447293447293447,
+          "x1": 0.5850120870265915,
+          "y1": 0.6034188034188034,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79113215,
+        0.8575383
+      ],
+      "extracted": {
+        "이재명": 224,
+        "김문수": 294,
+        "이준석": 51,
+        "권영국": 3,
+        "송진호": 0
+      },
+      "notes": [],
+      "district_key": "인천광역시|부평구",
+      "unit_match": {
+        "unit": [
+          "인천광역시",
+          "부평구",
+          null,
+          "갈산1동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 224,
+        "김문수": 294,
+        "이준석": 51,
+        "권영국": 3,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gwangju_39095_p021",
+      "region": "gwangju",
+      "district": "동구",
+      "precinct_csv": "서남동투표소",
+      "image_url": "gs://k21-tally-archive/gwangju/39095/p-21.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.6008064516129032,
+          "y0": 0.33409350057012543,
+          "x1": 0.9508064516129032,
+          "y1": 0.6043329532497149,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6,
+          "y0": 0.22805017103762829,
+          "x1": 0.9508064516129032,
+          "y1": 0.2953249714937286,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.049193548387096775,
+          "y0": 0.6624857468643102,
+          "x1": 0.9524193548387097,
+          "y1": 0.725769669327252,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.049193548387096775,
+          "y0": 0.22862029646522236,
+          "x1": 0.5903225806451613,
+          "y1": 0.2958950969213227,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.05,
+          "y0": 0.7862029646522235,
+          "x1": 0.9516129032258065,
+          "y1": 0.8745724059293044,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.050806451612903224,
+          "y0": 0.33409350057012543,
+          "x1": 0.589516129032258,
+          "y1": 0.6043329532497149,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.8054839,
+        0.8719355
+      ],
+      "extracted": {
+        "이재명": 409,
+        "김문수": 125,
+        "이준석": 91,
+        "권영국": 10,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "광주광역시|동구",
+      "unit_match": {
+        "unit": [
+          "광주광역시",
+          "동구",
+          null,
+          "서남동투표소",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 409,
+        "김문수": 125,
+        "이준석": 91,
+        "권영국": 10,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_daegu_39077_p004",
+      "region": "daegu",
+      "district": "동구",
+      "precinct_csv": "신암2동제1투",
+      "image_url": "gs://k21-tally-archive/daegu/39077/p-004.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.0427074939564867,
+          "y0": 0.7760683760683761,
+          "x1": 0.9500402900886382,
+          "y1": 0.8689458689458689,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5938759065269944,
+          "y0": 0.32193732193732194,
+          "x1": 0.9468170829975826,
+          "y1": 0.5925925925925926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5930701047542305,
+          "y0": 0.21652421652421652,
+          "x1": 0.9460112812248187,
+          "y1": 0.2831908831908832,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0427074939564867,
+          "y0": 0.21652421652421652,
+          "x1": 0.5825946817082998,
+          "y1": 0.2849002849002849,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0427074939564867,
+          "y0": 0.6507122507122507,
+          "x1": 0.9492344883158743,
+          "y1": 0.7139601139601139,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.043513295729250605,
+          "y0": 0.3230769230769231,
+          "x1": 0.5834004834810637,
+          "y1": 0.5925925925925926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79838436,
+        0.8664021
+      ],
+      "extracted": {
+        "이재명": 216,
+        "김문수": null,
+        "이준석": null,
+        "권영국": 19,
+        "송진호": 2
+      },
+      "notes": [
+        "김문수: recovered via nearest number row",
+        "김문수: second-engine disagreement (docai 12 vs gemini 1204), abstained",
+        "이준석: second-engine disagreement (docai 12 vs gemini 82), abstained"
+      ],
+      "district_key": "대구광역시|동구",
+      "unit_match": {
+        "unit": [
+          "대구광역시",
+          "동구",
+          null,
+          "신암2동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 216,
+        "김문수": 1204,
+        "이준석": 82,
+        "권영국": 19,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": null,
+        "이준석": null,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_ulsan_39108_p060",
+      "region": "ulsan",
+      "district": "북구",
+      "precinct_csv": "송정동제6투",
+      "image_url": "gs://k21-tally-archive/ulsan/39108/p-60.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5979049153908138,
+          "y0": 0.22336182336182336,
+          "x1": 0.9500402900886382,
+          "y1": 0.2905982905982906,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5987107171635777,
+          "y0": 0.32877492877492875,
+          "x1": 0.9508460918614021,
+          "y1": 0.5994301994301995,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04915390813859791,
+          "y0": 0.6575498575498575,
+          "x1": 0.9524576954069299,
+          "y1": 0.7196581196581197,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04754230459307011,
+          "y0": 0.2227920227920228,
+          "x1": 0.5874294923448832,
+          "y1": 0.2905982905982906,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04915390813859791,
+          "y0": 0.7834757834757835,
+          "x1": 0.9524576954069299,
+          "y1": 0.8655270655270655,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04915390813859791,
+          "y0": 0.32934472934472936,
+          "x1": 0.5882352941176471,
+          "y1": 0.5988603988603989,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7951612,
+        0.8599557
+      ],
+      "extracted": {
+        "이재명": 613,
+        "김문수": 656,
+        "이준석": 179,
+        "권영국": 23,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "울산광역시|북구",
+      "unit_match": {
+        "unit": [
+          "울산광역시",
+          "북구",
+          null,
+          "송정동제6투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 613,
+        "김문수": 656,
+        "이준석": 179,
+        "권영국": 23,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_busan_39066_p009",
+      "region": "busan",
+      "district": "남구",
+      "precinct_csv": "대연제3동제6투",
+      "image_url": "gs://k21-tally-archive/busan/39066/p-009.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.7793614595210946,
+          "x1": 0.9532258064516129,
+          "y1": 0.8762827822120867,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5991935483870968,
+          "y0": 0.3261117445838084,
+          "x1": 0.9516129032258065,
+          "y1": 0.5980615735461802,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5983870967741935,
+          "y0": 0.22120866590649943,
+          "x1": 0.9516129032258065,
+          "y1": 0.28905359179019385,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.6545039908779932,
+          "x1": 0.9532258064516129,
+          "y1": 0.7217787913340935,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.22462941847206386,
+          "x1": 0.5879032258064516,
+          "y1": 0.2936145952109464,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.3295324971493729,
+          "x1": 0.5870967741935483,
+          "y1": 0.6014823261117446,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78612905,
+        0.8735484
+      ],
+      "extracted": {
+        "이재명": null,
+        "김문수": 1164,
+        "이준석": 180,
+        "권영국": 9,
+        "송진호": 2
+      },
+      "notes": [
+        "이재명: second-engine disagreement (docai 149 vs gemini 749), abstained"
+      ],
+      "district_key": "부산광역시|남구",
+      "unit_match": {
+        "unit": [
+          "부산광역시",
+          "남구",
+          null,
+          "대연제3동제6투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 749,
+        "김문수": 1164,
+        "이준석": 180,
+        "권영국": 9,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": null,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_daejeon_39584_p011",
+      "region": "daejeon",
+      "district": "유성구",
+      "precinct_csv": "학하동제3투",
+      "image_url": "gs://k21-tally-archive/daejeon/39584/p-11.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.03306451612903226,
+          "y0": 0.7723901882487165,
+          "x1": 0.9387096774193548,
+          "y1": 0.8579577866514546,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5887096774193549,
+          "y0": 0.3177410154021677,
+          "x1": 0.9403225806451613,
+          "y1": 0.5904164289788933,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5903225806451613,
+          "y0": 0.21220764403879064,
+          "x1": 0.9419354838709677,
+          "y1": 0.28009127210496293,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.03467741935483871,
+          "y0": 0.6457501426126641,
+          "x1": 0.9403225806451613,
+          "y1": 0.710781517398745,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04032258064516129,
+          "y0": 0.2104962920707359,
+          "x1": 0.5798387096774194,
+          "y1": 0.2795208214489447,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.03870967741935484,
+          "y0": 0.3166001140901312,
+          "x1": 0.5782258064516129,
+          "y1": 0.5887050770108385,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.77967745,
+        0.8517742
+      ],
+      "extracted": {
+        "이재명": 489,
+        "김문수": 806,
+        "이준석": 243,
+        "권영국": 7,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "대전광역시|유성구",
+      "unit_match": {
+        "unit": [
+          "대전광역시",
+          "유성구",
+          null,
+          "학하동제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 489,
+        "김문수": 806,
+        "이준석": 243,
+        "권영국": 7,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gyeonggi_39154_p003",
+      "region": "gyeonggi",
+      "district": "구리시",
+      "precinct_csv": "갈매동제3투",
+      "image_url": "gs://k21-tally-archive/gyeonggi/39154/p-03.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.041935483870967745,
+          "y0": 0.7805017103762828,
+          "x1": 0.9516129032258065,
+          "y1": 0.8700114025085519,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5943548387096774,
+          "y0": 0.32668187001140253,
+          "x1": 0.9491935483870968,
+          "y1": 0.5974914481185861,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.592741935483871,
+          "y0": 0.22063854047890535,
+          "x1": 0.9475806451612904,
+          "y1": 0.2879133409350057,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04112903225806452,
+          "y0": 0.6562143671607754,
+          "x1": 0.9508064516129032,
+          "y1": 0.7189281641961232,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04032258064516129,
+          "y0": 0.2217787913340935,
+          "x1": 0.5830645161290322,
+          "y1": 0.28905359179019385,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.041935483870967745,
+          "y0": 0.3278221208665906,
+          "x1": 0.5830645161290322,
+          "y1": 0.5980615735461802,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7901613,
+        0.86951614
+      ],
+      "extracted": {
+        "이재명": 885,
+        "김문수": 851,
+        "이준석": 141,
+        "권영국": 24,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "경기도|구리시",
+      "unit_match": {
+        "unit": [
+          "경기도",
+          "구리시",
+          null,
+          "갈매동제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 885,
+        "김문수": 851,
+        "이준석": 141,
+        "권영국": 24,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_jeonbuk_39217_p014",
+      "region": "jeonbuk",
+      "district": "고창군",
+      "precinct_csv": "해리면제1투",
+      "image_url": "gs://k21-tally-archive/jeonbuk/39217/p-14.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.025806451612903226,
+          "y0": 0.7816419612314709,
+          "x1": 0.932258064516129,
+          "y1": 0.8654503990877993,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5814516129032258,
+          "y0": 0.32668187001140253,
+          "x1": 0.9362903225806452,
+          "y1": 0.5974914481185861,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5854838709677419,
+          "y0": 0.22063854047890535,
+          "x1": 0.9387096774193548,
+          "y1": 0.2879133409350057,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.03387096774193549,
+          "y0": 0.22006841505131128,
+          "x1": 0.5758064516129032,
+          "y1": 0.2879133409350057,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.028225806451612902,
+          "y0": 0.6562143671607754,
+          "x1": 0.9330645161290323,
+          "y1": 0.7189281641961232,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.031451612903225803,
+          "y0": 0.32668187001140253,
+          "x1": 0.5725806451612904,
+          "y1": 0.5969213226909921,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.77645164,
+        0.8574194
+      ],
+      "extracted": {
+        "이재명": 178,
+        "김문수": 43,
+        "이준석": 9,
+        "권영국": null,
+        "송진호": 0
+      },
+      "notes": [
+        "권영국: recovered via nearest number row",
+        "권영국: second-engine disagreement (docai 9 vs gemini 1), abstained"
+      ],
+      "district_key": "전북특별자치도|고창군",
+      "unit_match": {
+        "unit": [
+          "전북특별자치도",
+          "고창군",
+          null,
+          "해리면제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 178,
+        "김문수": 43,
+        "이준석": 9,
+        "권영국": 1,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": null,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_seoul_39047_p038",
+      "region": "seoul",
+      "district": "서대문구",
+      "precinct_csv": "홍제제2동제2투",
+      "image_url": "gs://k21-tally-archive/seoul/39047/p-38.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.031451612903225803,
+          "y0": 0.7843696520250998,
+          "x1": 0.9338709677419355,
+          "y1": 0.869937250427838,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5862903225806452,
+          "y0": 0.33371363377067886,
+          "x1": 0.9387096774193548,
+          "y1": 0.6046776953793497,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.589516129032258,
+          "y0": 0.22818026240730177,
+          "x1": 0.9403225806451613,
+          "y1": 0.29492298916143755,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.03306451612903226,
+          "y0": 0.6588705077010839,
+          "x1": 0.9362903225806452,
+          "y1": 0.7250427837992014,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.03790322580645161,
+          "y0": 0.22475755847119225,
+          "x1": 0.5798387096774194,
+          "y1": 0.293782087849401,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.036290322580645164,
+          "y0": 0.3302909298345693,
+          "x1": 0.5766129032258065,
+          "y1": 0.6018254420992584,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7804839,
+        0.8582258
+      ],
+      "extracted": {
+        "이재명": 569,
+        "김문수": 859,
+        "이준석": 146,
+        "권영국": 29,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "서울특별시|서대문구",
+      "unit_match": {
+        "unit": [
+          "서울특별시",
+          "서대문구",
+          null,
+          "홍제제2동제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 569,
+        "김문수": 859,
+        "이준석": 146,
+        "권영국": 29,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gangwon_39161_p032",
+      "region": "gangwon",
+      "district": "정선군",
+      "precinct_csv": "남면제2투",
+      "image_url": "gs://k21-tally-archive/gangwon/39161/p-32.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.59709911361805,
+          "y0": 0.23133903133903133,
+          "x1": 0.9492344883158743,
+          "y1": 0.2985754985754986,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5987107171635777,
+          "y0": 0.3367521367521368,
+          "x1": 0.9500402900886382,
+          "y1": 0.6068376068376068,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.046736502820306204,
+          "y0": 0.2301994301994302,
+          "x1": 0.5874294923448832,
+          "y1": 0.2985754985754986,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04915390813859791,
+          "y0": 0.6649572649572649,
+          "x1": 0.9524576954069299,
+          "y1": 0.725925925925926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499597099113618,
+          "y0": 0.7903133903133903,
+          "x1": 0.9532634971796938,
+          "y1": 0.8774928774928775,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04915390813859791,
+          "y0": 0.3367521367521368,
+          "x1": 0.5882352941176471,
+          "y1": 0.6062678062678063,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.77985096,
+        0.85189766
+      ],
+      "extracted": {
+        "이재명": 171,
+        "김문수": null,
+        "이준석": 17,
+        "권영국": 3,
+        "송진호": null
+      },
+      "notes": [
+        "김문수: second-engine disagreement (docai 4246 vs gemini 446), abstained",
+        "송진호: second-engine disagreement (docai 7 vs gemini 1), abstained"
+      ],
+      "district_key": "강원특별자치도|정선군",
+      "unit_match": {
+        "unit": [
+          "강원특별자치도",
+          "정선군",
+          null,
+          "남면제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 171,
+        "김문수": 446,
+        "이준석": 17,
+        "권영국": 3,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": null,
+        "이준석": true,
+        "권영국": true,
+        "송진호": null
+      }
+    },
+    {
+      "page_id": "e21_incheon_39090_p018",
+      "region": "incheon",
+      "district": "부평구",
+      "precinct_csv": "부평4동제1투",
+      "image_url": "gs://k21-tally-archive/incheon/39090/p-018.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.0547945205479452,
+          "y0": 0.7857549857549857,
+          "x1": 0.951651893634166,
+          "y1": 0.8786324786324786,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5962933118452861,
+          "y0": 0.33105413105413106,
+          "x1": 0.9476228847703465,
+          "y1": 0.6034188034188034,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5930701047542305,
+          "y0": 0.22678062678062677,
+          "x1": 0.9427880741337631,
+          "y1": 0.2934472934472934,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.052377115229653506,
+          "y0": 0.6603988603988604,
+          "x1": 0.9500402900886382,
+          "y1": 0.725925925925926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04754230459307011,
+          "y0": 0.2284900284900285,
+          "x1": 0.5834004834810637,
+          "y1": 0.29743589743589743,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499597099113618,
+          "y0": 0.3339031339031339,
+          "x1": 0.5866236905721193,
+          "y1": 0.6062678062678063,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7854915,
+        0.8720427000000001
+      ],
+      "extracted": {
+        "이재명": 1096,
+        "김문수": null,
+        "이준석": 227,
+        "권영국": 21,
+        "송진호": 4
+      },
+      "notes": [
+        "김문수: no number in column on anchor row",
+        "김문수: docai missed, gemini cross-check has 1032"
+      ],
+      "district_key": "인천광역시|부평구",
+      "unit_match": {
+        "unit": [
+          "인천광역시",
+          "부평구",
+          null,
+          "부평4동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 1096,
+        "김문수": 1032,
+        "이준석": 227,
+        "권영국": 21,
+        "송진호": 4
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": null,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gwangju_39097_p047",
+      "region": "gwangju",
+      "district": "남구",
+      "precinct_csv": "송암동제1투",
+      "image_url": "gs://k21-tally-archive/gwangju/39097/p-47.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5967741935483871,
+          "y0": 0.3363740022805017,
+          "x1": 0.95,
+          "y1": 0.6071835803876853,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5951612903225807,
+          "y0": 0.23204104903078676,
+          "x1": 0.9491935483870968,
+          "y1": 0.2993158494868871,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.23204104903078676,
+          "x1": 0.5862903225806452,
+          "y1": 0.2998859749144812,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.6653363740022805,
+          "x1": 0.9516129032258065,
+          "y1": 0.7280501710376283,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.7896237172177879,
+          "x1": 0.9516129032258065,
+          "y1": 0.8768529076396807,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04758064516129032,
+          "y0": 0.3363740022805017,
+          "x1": 0.5862903225806452,
+          "y1": 0.6071835803876853,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79258066,
+        0.8598387
+      ],
+      "extracted": {
+        "이재명": 791,
+        "김문수": null,
+        "이준석": 45,
+        "권영국": 9,
+        "송진호": 0
+      },
+      "notes": [
+        "김문수: recovered via nearest number row",
+        "김문수: second-engine disagreement (docai 45 vs gemini 124), abstained"
+      ],
+      "district_key": "광주광역시|남구",
+      "unit_match": {
+        "unit": [
+          "광주광역시",
+          "남구",
+          null,
+          "송암동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 791,
+        "김문수": 124,
+        "이준석": 45,
+        "권영국": 9,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": null,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_daegu_39077_p080",
+      "region": "daegu",
+      "district": "동구",
+      "precinct_csv": "안심4동제1투",
+      "image_url": "gs://k21-tally-archive/daegu/39077/p-080.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.041901692183722805,
+          "y0": 0.7732193732193732,
+          "x1": 0.9492344883158743,
+          "y1": 0.8632478632478633,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5930701047542305,
+          "y0": 0.31965811965811963,
+          "x1": 0.9460112812248187,
+          "y1": 0.5903133903133904,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5922643029814666,
+          "y0": 0.21367521367521367,
+          "x1": 0.9443996776792909,
+          "y1": 0.28034188034188035,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0410958904109589,
+          "y0": 0.649002849002849,
+          "x1": 0.9476228847703465,
+          "y1": 0.7116809116809116,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0410958904109589,
+          "y0": 0.21310541310541312,
+          "x1": 0.5817888799355359,
+          "y1": 0.2814814814814815,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.0427074939564867,
+          "y0": 0.3207977207977208,
+          "x1": 0.5817888799355359,
+          "y1": 0.5903133903133904,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79757857,
+        0.8591499
+      ],
+      "extracted": {
+        "이재명": 259,
+        "김문수": 1080,
+        "이준석": 86,
+        "권영국": null,
+        "송진호": 1
+      },
+      "notes": [
+        "권영국: recovered via nearest number row",
+        "권영국: second-engine disagreement (docai 1 vs gemini 7), abstained"
+      ],
+      "district_key": "대구광역시|동구",
+      "unit_match": {
+        "unit": [
+          "대구광역시",
+          "동구",
+          null,
+          "안심4동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 259,
+        "김문수": 1080,
+        "이준석": 86,
+        "권영국": 7,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": null,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_ulsan_39109_p027",
+      "region": "ulsan",
+      "district": "울주군",
+      "precinct_csv": "언양읍제6투",
+      "image_url": "gs://k21-tally-archive/ulsan/39109/p-27.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5990338164251208,
+          "y0": 0.3396011396011396,
+          "x1": 0.9484702093397746,
+          "y1": 0.6102564102564103,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6006441223832528,
+          "y0": 0.2341880341880342,
+          "x1": 0.9492753623188406,
+          "y1": 0.30142450142450145,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.05475040257648953,
+          "y0": 0.23475783475783477,
+          "x1": 0.5909822866344605,
+          "y1": 0.30142450142450145,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.050724637681159424,
+          "y0": 0.6683760683760683,
+          "x1": 0.9484702093397746,
+          "y1": 0.7304843304843305,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499194847020934,
+          "y0": 0.7925925925925926,
+          "x1": 0.9476650563607085,
+          "y1": 0.8837606837606837,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.05314009661835749,
+          "y0": 0.3378917378917379,
+          "x1": 0.5893719806763285,
+          "y1": 0.6102564102564103,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7953220599999999,
+        0.88422704
+      ],
+      "extracted": {
+        "이재명": 395,
+        "김문수": 905,
+        "이준석": 85,
+        "권영국": 20,
+        "송진호": 3
+      },
+      "notes": [],
+      "district_key": "울산광역시|울주군",
+      "unit_match": {
+        "unit": [
+          "울산광역시",
+          "울주군",
+          null,
+          "언양읍제6투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 395,
+        "김문수": 905,
+        "이준석": 85,
+        "권영국": 20,
+        "송진호": 3
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_busan_39073_p068",
+      "region": "busan",
+      "district": "연제구",
+      "precinct_csv": "연산제4동",
+      "image_url": "gs://k21-tally-archive/busan/39073/p-68.jpg",
+      "docai_cached": true,
+      "scope": "early",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5919354838709677,
+          "y0": 0.22690992018244013,
+          "x1": 0.9459677419354838,
+          "y1": 0.2936145952109464,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.592741935483871,
+          "y0": 0.3329532497149373,
+          "x1": 0.9459677419354838,
+          "y1": 0.6037628278221209,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.03951612903225806,
+          "y0": 0.22576966932725198,
+          "x1": 0.582258064516129,
+          "y1": 0.29418472063854045,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.03951612903225806,
+          "y0": 0.6624857468643102,
+          "x1": 0.9467741935483871,
+          "y1": 0.7246294184720639,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04032258064516129,
+          "y0": 0.7873432155074116,
+          "x1": 0.9467741935483871,
+          "y1": 0.8774230330672748,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04112903225806452,
+          "y0": 0.3329532497149373,
+          "x1": 0.582258064516129,
+          "y1": 0.6031927023945268,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78612905,
+        0.8703226000000001
+      ],
+      "extracted": {
+        "이재명": null,
+        "김문수": null,
+        "이준석": 175,
+        "권영국": 25,
+        "송진호": 3
+      },
+      "notes": [
+        "이재명: no number in column on anchor row",
+        "김문수: no number in column on anchor row",
+        "이재명: docai missed, gemini cross-check has 1762",
+        "김문수: docai missed, gemini cross-check has 1305"
+      ],
+      "district_key": "부산광역시|연제구",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_daejeon_39102_p111",
+      "region": "daejeon",
+      "district": "서구",
+      "precinct_csv": "관저2동제4투",
+      "image_url": "gs://k21-tally-archive/daejeon/39102/p-111.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5725806451612904,
+          "y0": 0.21892816419612315,
+          "x1": 0.9258064516129032,
+          "y1": 0.2879133409350057,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.028225806451612902,
+          "y0": 0.7816419612314709,
+          "x1": 0.9362903225806452,
+          "y1": 0.870581527936146,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5758064516129032,
+          "y0": 0.3255416191562144,
+          "x1": 0.9306451612903226,
+          "y1": 0.5980615735461802,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.025806451612903226,
+          "y0": 0.6550741163055872,
+          "x1": 0.9338709677419355,
+          "y1": 0.7223489167616876,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.020161290322580645,
+          "y0": 0.22234891676168758,
+          "x1": 0.5629032258064516,
+          "y1": 0.29304446978335236,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.024193548387096774,
+          "y0": 0.3278221208665906,
+          "x1": 0.5669354838709677,
+          "y1": 0.6020524515393386,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7627419,
+        0.8412903
+      ],
+      "extracted": {
+        "이재명": 905,
+        "김문수": 1006,
+        "이준석": 208,
+        "권영국": 27,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "대전광역시|서구",
+      "unit_match": {
+        "unit": [
+          "대전광역시",
+          "서구",
+          null,
+          "관저2동제4투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 905,
+        "김문수": 1006,
+        "이준석": 208,
+        "권영국": 27,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gyeonggi_39135_p010",
+      "region": "gyeonggi",
+      "district": "화성시갑",
+      "precinct_csv": "정남면제3투",
+      "image_url": "gs://k21-tally-archive/gyeonggi/39135/p-010.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.03790322580645161,
+          "y0": 0.773531089560753,
+          "x1": 0.9451612903225807,
+          "y1": 0.8590986879634912,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5935483870967742,
+          "y0": 0.32116371933827725,
+          "x1": 0.9475806451612904,
+          "y1": 0.5926982316029663,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5959677419354839,
+          "y0": 0.21505989731888192,
+          "x1": 0.9491935483870968,
+          "y1": 0.2829435253850542,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.2127780946948089,
+          "x1": 0.5862903225806452,
+          "y1": 0.2812321734169994,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.03951612903225806,
+          "y0": 0.648031945236737,
+          "x1": 0.9459677419354838,
+          "y1": 0.7124928693667998,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.3166001140901312,
+          "x1": 0.5838709677419355,
+          "y1": 0.5898459783228751,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.80225807,
+        0.8598387
+      ],
+      "extracted": {
+        "이재명": 397,
+        "김문수": 700,
+        "이준석": 65,
+        "권영국": null,
+        "송진호": 2
+      },
+      "notes": [
+        "권영국: no number in column on anchor row",
+        "권영국: docai missed, gemini cross-check has 11"
+      ],
+      "district_key": "경기도|화성시",
+      "unit_match": {
+        "unit": [
+          "경기도",
+          "화성시갑",
+          null,
+          "정남면제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 397,
+        "김문수": 700,
+        "이준석": 65,
+        "권영국": 11,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": null,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_jeonbuk_39204_p081",
+      "region": "jeonbuk",
+      "district": "전주시완산구",
+      "precinct_csv": "효자2동제1투",
+      "image_url": "gs://k21-tally-archive/jeonbuk/39204/p-081.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.050806451612903224,
+          "y0": 0.774230330672748,
+          "x1": 0.9524193548387097,
+          "y1": 0.862599771949829,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6040322580645161,
+          "y0": 0.3249714937286203,
+          "x1": 0.9556451612903226,
+          "y1": 0.5940706955530216,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.6056451612903225,
+          "y0": 0.22006841505131128,
+          "x1": 0.957258064516129,
+          "y1": 0.2862029646522235,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.050806451612903224,
+          "y0": 0.6505131128848347,
+          "x1": 0.9540322580645161,
+          "y1": 0.7155074116305588,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0532258064516129,
+          "y0": 0.217787913340935,
+          "x1": 0.5959677419354839,
+          "y1": 0.2856328392246294,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.05241935483870968,
+          "y0": 0.3232611174458381,
+          "x1": 0.5935483870967742,
+          "y1": 0.5923603192702395,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79903227,
+        0.86951614
+      ],
+      "extracted": {
+        "이재명": 813,
+        "김문수": 249,
+        "이준석": 68,
+        "권영국": 4,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "전북특별자치도|전주시완산구",
+      "unit_match": {
+        "unit": [
+          "전북특별자치도",
+          "전주시완산구",
+          null,
+          "효자2동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 813,
+        "김문수": 249,
+        "이준석": 68,
+        "권영국": 4,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_seoul_39049_p103",
+      "region": "seoul",
+      "district": "양천구",
+      "precinct_csv": "신정7동제3투",
+      "image_url": "gs://k21-tally-archive/seoul/39049/p-103.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.042741935483870966,
+          "y0": 0.7799315849486887,
+          "x1": 0.9532258064516129,
+          "y1": 0.8654503990877993,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6008064516129032,
+          "y0": 0.3255416191562144,
+          "x1": 0.9540322580645161,
+          "y1": 0.5974914481185861,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.6008064516129032,
+          "y0": 0.21892816419612315,
+          "x1": 0.9548387096774194,
+          "y1": 0.28734321550741165,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.6556442417331813,
+          "x1": 0.9540322580645161,
+          "y1": 0.7183580387685291,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.22006841505131128,
+          "x1": 0.5903225806451613,
+          "y1": 0.28734321550741165,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.3261117445838084,
+          "x1": 0.589516129032258,
+          "y1": 0.5963511972633979,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.8062903,
+        0.8687097
+      ],
+      "extracted": {
+        "이재명": 747,
+        "김문수": 979,
+        "이준석": 136,
+        "권영국": 14,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "서울특별시|양천구",
+      "unit_match": {
+        "unit": [
+          "서울특별시",
+          "양천구",
+          null,
+          "신정7동제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 747,
+        "김문수": 979,
+        "이준석": 136,
+        "권영국": 14,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gangwon_39166_p004",
+      "region": "gangwon",
+      "district": "삼척시",
+      "precinct_csv": "근덕면",
+      "image_url": "gs://k21-tally-archive/gangwon/39166/p-04.jpg",
+      "docai_cached": true,
+      "scope": "early",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04112903225806452,
+          "y0": 0.7810718358038768,
+          "x1": 0.9459677419354838,
+          "y1": 0.8654503990877993,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5943548387096774,
+          "y0": 0.3295324971493729,
+          "x1": 0.9467741935483871,
+          "y1": 0.6003420752565565,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5951612903225807,
+          "y0": 0.2234891676168757,
+          "x1": 0.9475806451612904,
+          "y1": 0.2913340935005701,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04112903225806452,
+          "y0": 0.6556442417331813,
+          "x1": 0.9467741935483871,
+          "y1": 0.7200684150513113,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.22120866590649943,
+          "x1": 0.5854838709677419,
+          "y1": 0.2896237172177879,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.3272519954389966,
+          "x1": 0.5830645161290322,
+          "y1": 0.5986316989737742,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7982258,
+        0.8719355
+      ],
+      "extracted": {
+        "이재명": 564,
+        "김문수": 655,
+        "이준석": 67,
+        "권영국": 15,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "강원특별자치도|삼척시",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_incheon_39089_p075",
+      "region": "incheon",
+      "district": "남동구",
+      "precinct_csv": "만수3동제2부",
+      "image_url": "gs://k21-tally-archive/incheon/39089/p-075.jpg",
+      "docai_cached": true,
+      "scope": "precinct",
+      "sam_cached": true,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04669887278582931,
+          "y0": 0.7834757834757835,
+          "x1": 0.9500805152979066,
+          "y1": 0.8672364672364672,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5982286634460547,
+          "y0": 0.3282051282051282,
+          "x1": 0.9492753623188406,
+          "y1": 0.6,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5982286634460547,
+          "y0": 0.2227920227920228,
+          "x1": 0.9500805152979066,
+          "y1": 0.29002849002849,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04669887278582931,
+          "y0": 0.6564102564102564,
+          "x1": 0.9500805152979066,
+          "y1": 0.7207977207977208,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04669887278582931,
+          "y0": 0.22165242165242166,
+          "x1": 0.5877616747181964,
+          "y1": 0.28945868945868947,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04830917874396135,
+          "y0": 0.32763532763532766,
+          "x1": 0.5877616747181964,
+          "y1": 0.5988603988603989,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7961272,
+        0.8544364
+      ],
+      "extracted": {
+        "이재명": 335,
+        "김문수": 391,
+        "이준석": 62,
+        "권영국": 6,
+        "송진호": null
+      },
+      "notes": [
+        "송진호: recovered via nearest number row",
+        "송진호: second-engine disagreement (docai 6 vs gemini 0), abstained"
+      ],
+      "district_key": "인천광역시|남동구",
+      "unit_match": {
+        "unit": [
+          "인천광역시",
+          "남동구",
+          null,
+          "만수3동제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 335,
+        "김문수": 391,
+        "이준석": 62,
+        "권영국": 6,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": null
+      }
+    },
+    {
+      "page_id": "e21_gwangju_39095_p048",
+      "region": "gwangju",
+      "district": "동구",
+      "precinct_csv": "동구 위원회",
+      "image_url": "gs://k21-tally-archive/gwangju/39095/p-48.jpg",
+      "docai_cached": false,
+      "scope": "early",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.05,
+          "y0": 0.7770809578107184,
+          "x1": 0.9516129032258065,
+          "y1": 0.863169897377423,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6008064516129032,
+          "y0": 0.3238312428734322,
+          "x1": 0.95,
+          "y1": 0.5940706955530216,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.6,
+          "y0": 0.21835803876852908,
+          "x1": 0.9491935483870968,
+          "y1": 0.2856328392246294,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.05,
+          "y0": 0.6516533637400228,
+          "x1": 0.9516129032258065,
+          "y1": 0.7149372862029647,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04838709677419355,
+          "y0": 0.21892816419612315,
+          "x1": 0.589516129032258,
+          "y1": 0.2879133409350057,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.05,
+          "y0": 0.3249714937286203,
+          "x1": 0.5903225806451613,
+          "y1": 0.5946408209806158,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.803871,
+        0.8590323
+      ],
+      "extracted": {
+        "이재명": 308,
+        "김문수": 29,
+        "이준석": 21,
+        "권영국": 9,
+        "송진호": 0
+      },
+      "notes": [],
+      "district_key": "광주광역시|동구",
+      "unit_match": {
+        "unit": [
+          "광주광역시",
+          "동구",
+          "재외투표",
+          null,
+          "special"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 308,
+        "김문수": 29,
+        "이준석": 21,
+        "권영국": 9,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_daegu_39076_p006",
+      "region": "daegu",
+      "district": "중구",
+      "precinct_csv": "대신동",
+      "image_url": "gs://k21-tally-archive/daegu/39076/p-06.jpg",
+      "docai_cached": false,
+      "scope": "early",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5935483870967742,
+          "y0": 0.22976054732041049,
+          "x1": 0.9451612903225807,
+          "y1": 0.29817559863169896,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.042741935483870966,
+          "y0": 0.7919042189281642,
+          "x1": 0.9475806451612904,
+          "y1": 0.878563283922463,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5943548387096774,
+          "y0": 0.3346636259977195,
+          "x1": 0.9459677419354838,
+          "y1": 0.6077537058152793,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.042741935483870966,
+          "y0": 0.6659064994298746,
+          "x1": 0.9467741935483871,
+          "y1": 0.7280501710376283,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.042741935483870966,
+          "y0": 0.22976054732041049,
+          "x1": 0.5830645161290322,
+          "y1": 0.29874572405929306,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.3363740022805017,
+          "x1": 0.5830645161290322,
+          "y1": 0.6071835803876853,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.8014516,
+        0.87274194
+      ],
+      "extracted": {
+        "이재명": 583,
+        "김문수": 860,
+        "이준석": null,
+        "권영국": 14,
+        "송진호": 0
+      },
+      "notes": [
+        "이준석: second-engine disagreement (docai 147 vs gemini 142), abstained"
+      ],
+      "district_key": "대구광역시|중구",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_ulsan_39105_p065",
+      "region": "ulsan",
+      "district": "중구",
+      "precinct_csv": "병영2동제5투",
+      "image_url": "gs://k21-tally-archive/ulsan/39105/p-65.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5974235104669887,
+          "y0": 0.22564102564102564,
+          "x1": 0.9492753623188406,
+          "y1": 0.29116809116809117,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5982286634460547,
+          "y0": 0.3299145299145299,
+          "x1": 0.9500805152979066,
+          "y1": 0.5994301994301995,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04669887278582931,
+          "y0": 0.22507122507122507,
+          "x1": 0.5869565217391305,
+          "y1": 0.2917378917378917,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04830917874396135,
+          "y0": 0.6581196581196581,
+          "x1": 0.9524959742351047,
+          "y1": 0.719088319088319,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04911433172302738,
+          "y0": 0.784045584045584,
+          "x1": 0.9533011272141707,
+          "y1": 0.8660968660968661,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04830917874396135,
+          "y0": 0.3299145299145299,
+          "x1": 0.5877616747181964,
+          "y1": 0.5994301994301995,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78163445,
+        0.8673188000000001
+      ],
+      "extracted": {
+        "이재명": 534,
+        "김문수": 838,
+        "이준석": null,
+        "권영국": 21,
+        "송진호": 1
+      },
+      "notes": [
+        "이준석: recovered via nearest number row",
+        "이준석: second-engine disagreement (docai 21 vs gemini 111), abstained"
+      ],
+      "district_key": "울산광역시|중구",
+      "unit_match": {
+        "unit": [
+          "울산광역시",
+          "중구",
+          null,
+          "병영2동제5투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 534,
+        "김문수": 838,
+        "이준석": 111,
+        "권영국": 21,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": null,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_busan_39071_p057",
+      "region": "busan",
+      "district": "금정구",
+      "precinct_csv": "구서제2동제7투",
+      "image_url": "gs://k21-tally-archive/busan/39071/p-57.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5956416464891041,
+          "y0": 0.3247422680412371,
+          "x1": 0.9467312348668281,
+          "y1": 0.5962199312714777,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5956416464891041,
+          "y0": 0.21935853379152348,
+          "x1": 0.9467312348668281,
+          "y1": 0.2852233676975945,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04519774011299435,
+          "y0": 0.2170675830469645,
+          "x1": 0.5867635189669088,
+          "y1": 0.28579610538373423,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.041969330104923326,
+          "y0": 0.6517754868270332,
+          "x1": 0.9467312348668281,
+          "y1": 0.7164948453608248,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04116222760290557,
+          "y0": 0.777205040091638,
+          "x1": 0.9467312348668281,
+          "y1": 0.8688430698739977,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04439063761097659,
+          "y0": 0.3230240549828179,
+          "x1": 0.585956416464891,
+          "y1": 0.5939289805269187,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79806697,
+        0.86214287
+      ],
+      "extracted": {
+        "이재명": 655,
+        "김문수": null,
+        "이준석": 185,
+        "권영국": 27,
+        "송진호": null
+      },
+      "notes": [
+        "김문수: recovered via nearest number row",
+        "송진호: recovered via nearest number row",
+        "김문수: second-engine disagreement (docai 655 vs gemini 1723), abstained",
+        "송진호: second-engine disagreement (docai 27 vs gemini 0), abstained"
+      ],
+      "district_key": "부산광역시|금정구",
+      "unit_match": {
+        "unit": [
+          "부산광역시",
+          "금정구",
+          null,
+          "구서제2동제7투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 655,
+        "김문수": 1723,
+        "이준석": 185,
+        "권영국": 27,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": null,
+        "이준석": true,
+        "권영국": true,
+        "송진호": null
+      }
+    },
+    {
+      "page_id": "e21_daejeon_39102_p045",
+      "region": "daejeon",
+      "district": "서구",
+      "precinct_csv": "재외투표",
+      "image_url": "gs://k21-tally-archive/daejeon/39102/p-045.jpg",
+      "docai_cached": false,
+      "scope": "early",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5725806451612904,
+          "y0": 0.21892816419612315,
+          "x1": 0.925,
+          "y1": 0.28677309007981755,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.02258064516129032,
+          "y0": 0.7810718358038768,
+          "x1": 0.9298387096774193,
+          "y1": 0.8665906499429875,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5733870967741935,
+          "y0": 0.3249714937286203,
+          "x1": 0.9266129032258065,
+          "y1": 0.5969213226909921,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.02258064516129032,
+          "y0": 0.6550741163055872,
+          "x1": 0.9290322580645162,
+          "y1": 0.7189281641961232,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.020161290322580645,
+          "y0": 0.22063854047890535,
+          "x1": 0.5620967741935484,
+          "y1": 0.2896237172177879,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.021774193548387097,
+          "y0": 0.3272519954389966,
+          "x1": 0.5629032258064516,
+          "y1": 0.5986316989737742,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7627419,
+        0.83
+      ],
+      "extracted": {
+        "이재명": 915,
+        "김문수": 254,
+        "이준석": 154,
+        "권영국": 21,
+        "송진호": 0
+      },
+      "notes": [],
+      "district_key": "대전광역시|서구",
+      "unit_match": {
+        "unit": [
+          "대전광역시",
+          "서구",
+          "재외투표",
+          null,
+          "special"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 915,
+        "김문수": 254,
+        "이준석": 154,
+        "권영국": 21,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gyeonggi_39126_p030",
+      "region": "gyeonggi",
+      "district": "양주시",
+      "precinct_csv": "양주1동제3투",
+      "image_url": "gs://k21-tally-archive/gyeonggi/39126/p-30.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.053988718775181306,
+          "y0": 0.7823361823361823,
+          "x1": 0.9492344883158743,
+          "y1": 0.8678062678062678,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6003223207091055,
+          "y0": 0.32763532763532766,
+          "x1": 0.9484286865431104,
+          "y1": 0.5988603988603989,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5987107171635777,
+          "y0": 0.2222222222222222,
+          "x1": 0.9468170829975826,
+          "y1": 0.2883190883190883,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.053988718775181306,
+          "y0": 0.656980056980057,
+          "x1": 0.9492344883158743,
+          "y1": 0.7185185185185186,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0531829170024174,
+          "y0": 0.2222222222222222,
+          "x1": 0.589041095890411,
+          "y1": 0.28945868945868947,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.0547945205479452,
+          "y0": 0.3282051282051282,
+          "x1": 0.589041095890411,
+          "y1": 0.5988603988603989,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7951612,
+        0.8599557
+      ],
+      "extracted": {
+        "이재명": 368,
+        "김문수": 517,
+        "이준석": 35,
+        "권영국": 8,
+        "송진호": 0
+      },
+      "notes": [],
+      "district_key": "경기도|양주시",
+      "unit_match": {
+        "unit": [
+          "경기도",
+          "양주시",
+          null,
+          "양주1동제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 368,
+        "김문수": 517,
+        "이준석": 35,
+        "권영국": 8,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_jeonbuk_39206_p094",
+      "region": "jeonbuk",
+      "district": "군산시",
+      "precinct_csv": "신풍동",
+      "image_url": "gs://k21-tally-archive/jeonbuk/39206/p-094.jpg",
+      "docai_cached": false,
+      "scope": "early",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.7769537934968626,
+          "x1": 0.9475806451612904,
+          "y1": 0.8636622932116372,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5967741935483871,
+          "y0": 0.3257273245864233,
+          "x1": 0.9516129032258065,
+          "y1": 0.5949800342270394,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5959677419354839,
+          "y0": 0.22019395322304622,
+          "x1": 0.9459677419354838,
+          "y1": 0.2875071306332002,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.652595550484883,
+          "x1": 0.9459677419354838,
+          "y1": 0.7159155733029093,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.21962350256702795,
+          "x1": 0.5862903225806452,
+          "y1": 0.286936679977182,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04758064516129032,
+          "y0": 0.32458642327438675,
+          "x1": 0.5854838709677419,
+          "y1": 0.5938391329150029,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78129035,
+        0.8687097
+      ],
+      "extracted": {
+        "이재명": null,
+        "김문수": 184,
+        "이준석": 78,
+        "권영국": null,
+        "송진호": 1
+      },
+      "notes": [
+        "권영국: no number in column on anchor row",
+        "이재명: second-engine disagreement (docai 2039 vs gemini 2040), abstained",
+        "권영국: docai missed, gemini cross-check has 11"
+      ],
+      "district_key": "전북특별자치도|군산시",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_seoul_39046_p066",
+      "region": "seoul",
+      "district": "은평구",
+      "precinct_csv": "수색동제1투",
+      "image_url": "gs://k21-tally-archive/seoul/39046/p-066.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.7713797035347777,
+          "x1": 0.9467741935483871,
+          "y1": 0.8597491448118586,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5967741935483871,
+          "y0": 0.3221208665906499,
+          "x1": 0.9459677419354838,
+          "y1": 0.5917901938426454,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5959677419354839,
+          "y0": 0.2160775370581528,
+          "x1": 0.9467741935483871,
+          "y1": 0.28335233751425315,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.6488027366020525,
+          "x1": 0.9467741935483871,
+          "y1": 0.7120866590649944,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.2160775370581528,
+          "x1": 0.5862903225806452,
+          "y1": 0.2839224629418472,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.3221208665906499,
+          "x1": 0.5854838709677419,
+          "y1": 0.5906499429874572,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7885484,
+        0.86467743
+      ],
+      "extracted": {
+        "이재명": 477,
+        "김문수": 747,
+        "이준석": 168,
+        "권영국": 24,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "서울특별시|은평구",
+      "unit_match": {
+        "unit": [
+          "서울특별시",
+          "은평구",
+          null,
+          "수색동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 477,
+        "김문수": 747,
+        "이준석": 168,
+        "권영국": 24,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gangwon_39162_p008",
+      "region": "gangwon",
+      "district": "속초시",
+      "precinct_csv": "대포동",
+      "image_url": "gs://k21-tally-archive/gangwon/39162/p-08.jpg",
+      "docai_cached": false,
+      "scope": "early",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5975806451612903,
+          "y0": 0.22234891676168758,
+          "x1": 0.9508064516129032,
+          "y1": 0.28848346636259975,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5983870967741935,
+          "y0": 0.3278221208665906,
+          "x1": 0.9508064516129032,
+          "y1": 0.5986316989737742,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.6562143671607754,
+          "x1": 0.9516129032258065,
+          "y1": 0.7189281641961232,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.22063854047890535,
+          "x1": 0.5870967741935483,
+          "y1": 0.28848346636259975,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.7822120866590649,
+          "x1": 0.9556451612903226,
+          "y1": 0.8643101482326112,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04838709677419355,
+          "y0": 0.3272519954389966,
+          "x1": 0.5870967741935483,
+          "y1": 0.5974914481185861,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78774195,
+        0.8606452
+      ],
+      "extracted": {
+        "이재명": 387,
+        "김문수": 265,
+        "이준석": 51,
+        "권영국": 7,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "강원특별자치도|속초시",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_incheon_39087_p011",
+      "region": "incheon",
+      "district": "미추홀구",
+      "precinct_csv": "문학동제2투",
+      "image_url": "gs://k21-tally-archive/incheon/39087/p-011.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5966183574879227,
+          "y0": 0.32706552706552705,
+          "x1": 0.9492753623188406,
+          "y1": 0.5977207977207977,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5950080515297906,
+          "y0": 0.22165242165242166,
+          "x1": 0.9460547504025765,
+          "y1": 0.2883190883190883,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04750402576489533,
+          "y0": 0.22336182336182336,
+          "x1": 0.5861513687600645,
+          "y1": 0.2905982905982906,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499194847020934,
+          "y0": 0.656980056980057,
+          "x1": 0.9508856682769726,
+          "y1": 0.7185185185185186,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499194847020934,
+          "y0": 0.7806267806267806,
+          "x1": 0.9516908212560387,
+          "y1": 0.864957264957265,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499194847020934,
+          "y0": 0.32877492877492875,
+          "x1": 0.5869565217391305,
+          "y1": 0.5965811965811966,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.80015295,
+        0.8745652
+      ],
+      "extracted": {
+        "이재명": 523,
+        "김문수": 640,
+        "이준석": 102,
+        "권영국": 9,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "인천광역시|미추홀구",
+      "unit_match": {
+        "unit": [
+          "인천광역시",
+          "미추홀구",
+          null,
+          "문학동제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 523,
+        "김문수": 640,
+        "이준석": 102,
+        "권영국": 9,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gwangju_x2d08de_p066",
+      "region": "gwangju",
+      "district": "광산구",
+      "precinct_csv": "신창동제5투",
+      "image_url": "gs://k21-tally-archive/gwangju/x2d08de/p-66.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5991935483870968,
+          "y0": 0.22703936109526526,
+          "x1": 0.9532258064516129,
+          "y1": 0.29492298916143755,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6008064516129032,
+          "y0": 0.33257273245864233,
+          "x1": 0.9540322580645161,
+          "y1": 0.6035367940673132,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04758064516129032,
+          "y0": 0.6622932116371933,
+          "x1": 0.9564516129032258,
+          "y1": 0.7250427837992014,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.226468910439247,
+          "x1": 0.5887096774193549,
+          "y1": 0.29435253850541926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04838709677419355,
+          "y0": 0.7860810039931546,
+          "x1": 0.9564516129032258,
+          "y1": 0.8762122076440388,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.049193548387096775,
+          "y0": 0.3320022818026241,
+          "x1": 0.589516129032258,
+          "y1": 0.602966343411295,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79258066,
+        0.88403225
+      ],
+      "extracted": {
+        "이재명": 1365,
+        "김문수": 206,
+        "이준석": 150,
+        "권영국": 27,
+        "송진호": 3
+      },
+      "notes": [],
+      "district_key": "광주광역시|광산구",
+      "unit_match": {
+        "unit": [
+          "광주광역시",
+          "광산구",
+          null,
+          "신창동제5투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 1365,
+        "김문수": 206,
+        "이준석": 150,
+        "권영국": 27,
+        "송진호": 3
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_daegu_39077_p049",
+      "region": "daegu",
+      "district": "동구",
+      "precinct_csv": "동촌동제4투",
+      "image_url": "gs://k21-tally-archive/daegu/39077/p-049.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.0346494762288477,
+          "y0": 0.7737891737891738,
+          "x1": 0.9411764705882353,
+          "y1": 0.860968660968661,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5882352941176471,
+          "y0": 0.31965811965811963,
+          "x1": 0.9395648670427075,
+          "y1": 0.5903133903133904,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5882352941176471,
+          "y0": 0.21481481481481482,
+          "x1": 0.9395648670427075,
+          "y1": 0.2809116809116809,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.037066881547139406,
+          "y0": 0.21367521367521367,
+          "x1": 0.5777598710717163,
+          "y1": 0.2814814814814815,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.035455278001611606,
+          "y0": 0.649002849002849,
+          "x1": 0.9403706688154714,
+          "y1": 0.7111111111111111,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.037066881547139406,
+          "y0": 0.3190883190883191,
+          "x1": 0.5769540692989524,
+          "y1": 0.5897435897435898,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78790897,
+        0.8599557
+      ],
+      "extracted": {
+        "이재명": 237,
+        "김문수": 1208,
+        "이준석": 89,
+        "권영국": 8,
+        "송진호": null
+      },
+      "notes": [
+        "송진호: recovered via nearest number row",
+        "송진호: second-engine disagreement (docai 8 vs gemini 0), abstained"
+      ],
+      "district_key": "대구광역시|동구",
+      "unit_match": {
+        "unit": [
+          "대구광역시",
+          "동구",
+          null,
+          "동촌동제4투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 237,
+        "김문수": 1208,
+        "이준석": 89,
+        "권영국": 8,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": null
+      }
+    },
+    {
+      "page_id": "e21_ulsan_39109_p054",
+      "region": "ulsan",
+      "district": "울주군",
+      "precinct_csv": "상북면제3투",
+      "image_url": "gs://k21-tally-archive/ulsan/39109/p-54.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.6022544283413849,
+          "y0": 0.2358974358974359,
+          "x1": 0.9508856682769726,
+          "y1": 0.30256410256410254,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.04750402576489533,
+          "y0": 0.7925925925925926,
+          "x1": 0.9468599033816425,
+          "y1": 0.8792022792022792,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5990338164251208,
+          "y0": 0.34074074074074073,
+          "x1": 0.9492753623188406,
+          "y1": 0.611965811965812,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.05636070853462158,
+          "y0": 0.2341880341880342,
+          "x1": 0.5925925925925926,
+          "y1": 0.301994301994302,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0499194847020934,
+          "y0": 0.6678062678062678,
+          "x1": 0.9476650563607085,
+          "y1": 0.7316239316239316,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.05233494363929147,
+          "y0": 0.3401709401709402,
+          "x1": 0.5893719806763285,
+          "y1": 0.6102564102564103,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78002417,
+        0.85846216
+      ],
+      "extracted": {
+        "이재명": 228,
+        "김문수": 872,
+        "이준석": 38,
+        "권영국": 10,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "울산광역시|울주군",
+      "unit_match": {
+        "unit": [
+          "울산광역시",
+          "울주군",
+          null,
+          "상북면제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 228,
+        "김문수": 872,
+        "이준석": 38,
+        "권영국": 10,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_busan_39073_p037",
+      "region": "busan",
+      "district": "연제구",
+      "precinct_csv": "연산제5동제1투",
+      "image_url": "gs://k21-tally-archive/busan/39073/p-37.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5951612903225807,
+          "y0": 0.22462941847206386,
+          "x1": 0.9491935483870968,
+          "y1": 0.2913340935005701,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.7856328392246295,
+          "x1": 0.9524193548387097,
+          "y1": 0.8751425313568986,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5967741935483871,
+          "y0": 0.33010262257696693,
+          "x1": 0.95,
+          "y1": 0.6026225769669328,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.6607753705815279,
+          "x1": 0.9516129032258065,
+          "y1": 0.7229190421892816,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.042741935483870966,
+          "y0": 0.22519954389965793,
+          "x1": 0.5854838709677419,
+          "y1": 0.29247434435575825,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.3312428734321551,
+          "x1": 0.5862903225806452,
+          "y1": 0.6026225769669328,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7853226,
+        0.88
+      ],
+      "extracted": {
+        "이재명": 357,
+        "김문수": null,
+        "이준석": 124,
+        "권영국": 14,
+        "송진호": 0
+      },
+      "notes": [
+        "김문수: recovered via nearest number row",
+        "김문수: second-engine disagreement (docai 124 vs gemini 1131), abstained"
+      ],
+      "district_key": "부산광역시|연제구",
+      "unit_match": {
+        "unit": [
+          "부산광역시",
+          "연제구",
+          null,
+          "연산제5동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 357,
+        "김문수": 1131,
+        "이준석": 124,
+        "권영국": 14,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": null,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_daejeon_39104_p015",
+      "region": "daejeon",
+      "district": "대덕구",
+      "precinct_csv": "비래동제1투",
+      "image_url": "gs://k21-tally-archive/daejeon/39104/p-15.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5959677419354839,
+          "y0": 0.22234891676168758,
+          "x1": 0.95,
+          "y1": 0.290193842645382,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.03951612903225806,
+          "y0": 0.7810718358038768,
+          "x1": 0.9467741935483871,
+          "y1": 0.8643101482326112,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5951612903225807,
+          "y0": 0.3278221208665906,
+          "x1": 0.9483870967741935,
+          "y1": 0.5980615735461802,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04112903225806452,
+          "y0": 0.6556442417331813,
+          "x1": 0.9475806451612904,
+          "y1": 0.7189281641961232,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.22120866590649943,
+          "x1": 0.5862903225806452,
+          "y1": 0.28848346636259975,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.042741935483870966,
+          "y0": 0.3272519954389966,
+          "x1": 0.5846774193548387,
+          "y1": 0.5969213226909921,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.778871,
+        0.8767742000000001
+      ],
+      "extracted": {
+        "이재명": 424,
+        "김문수": 678,
+        "이준석": 88,
+        "권영국": 10,
+        "송진호": 2
+      },
+      "notes": [],
+      "district_key": "대전광역시|대덕구",
+      "unit_match": {
+        "unit": [
+          "대전광역시",
+          "대덕구",
+          null,
+          "비래동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 424,
+        "김문수": 678,
+        "이준석": 88,
+        "권영국": 10,
+        "송진호": 2
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gyeonggi_39130_p054",
+      "region": "gyeonggi",
+      "district": "안산시단원구",
+      "precinct_csv": "초지동제4투",
+      "image_url": "gs://k21-tally-archive/gyeonggi/39130/p-54.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5932203389830508,
+          "y0": 0.22203196347031964,
+          "x1": 0.9459241323648103,
+          "y1": 0.2882420091324201,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.03954802259887006,
+          "y0": 0.7802511415525114,
+          "x1": 0.9459241323648103,
+          "y1": 0.8664383561643836,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5940274414850686,
+          "y0": 0.3270547945205479,
+          "x1": 0.9459241323648103,
+          "y1": 0.5981735159817352,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04035512510088781,
+          "y0": 0.656392694063927,
+          "x1": 0.9467312348668281,
+          "y1": 0.718607305936073,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.042776432606941084,
+          "y0": 0.22203196347031964,
+          "x1": 0.58272800645682,
+          "y1": 0.2882420091324201,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.041969330104923326,
+          "y0": 0.3276255707762557,
+          "x1": 0.5835351089588378,
+          "y1": 0.5976027397260274,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7835392,
+        0.85326475
+      ],
+      "extracted": {
+        "이재명": 642,
+        "김문수": 657,
+        "이준석": null,
+        "권영국": 15,
+        "송진호": null
+      },
+      "notes": [
+        "이준석: recovered via nearest number row",
+        "송진호: recovered via nearest number row",
+        "이준석: second-engine disagreement (docai 15 vs gemini 120), abstained",
+        "송진호: second-engine disagreement (docai 12 vs gemini 1), abstained"
+      ],
+      "district_key": "경기도|안산시단원구",
+      "unit_match": {
+        "unit": [
+          "경기도",
+          "안산시단원구",
+          null,
+          "초지동제4투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 642,
+        "김문수": 657,
+        "이준석": 120,
+        "권영국": 15,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": null,
+        "권영국": true,
+        "송진호": null
+      }
+    },
+    {
+      "page_id": "e21_jeonbuk_39215_p003",
+      "region": "jeonbuk",
+      "district": "임실군",
+      "precinct_csv": "임실군-30-3",
+      "image_url": "gs://k21-tally-archive/jeonbuk/39215/p-03.jpg",
+      "docai_cached": false,
+      "scope": "early",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5975806451612903,
+          "y0": 0.22405929304446978,
+          "x1": 0.9475806451612904,
+          "y1": 0.29076396807297605,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.7736602052451539,
+          "x1": 0.9475806451612904,
+          "y1": 0.8643101482326112,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5975806451612903,
+          "y0": 0.3289623717217788,
+          "x1": 0.9475806451612904,
+          "y1": 0.5980615735461802,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.6562143671607754,
+          "x1": 0.9475806451612904,
+          "y1": 0.7189281641961232,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04596774193548387,
+          "y0": 0.22291904218928163,
+          "x1": 0.5879032258064516,
+          "y1": 0.29076396807297605,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04758064516129032,
+          "y0": 0.3289623717217788,
+          "x1": 0.5870967741935483,
+          "y1": 0.5969213226909921,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.80064517,
+        0.8703226000000001
+      ],
+      "extracted": {
+        "이재명": null,
+        "김문수": 29,
+        "이준석": null,
+        "권영국": null,
+        "송진호": 3
+      },
+      "notes": [
+        "이재명: recovered via nearest number row",
+        "권영국: no number in column on anchor row",
+        "이재명: second-engine disagreement (docai 29 vs gemini 413), abstained",
+        "이준석: second-engine disagreement (docai 1 vs gemini 7), abstained",
+        "권영국: docai missed, gemini cross-check has 4"
+      ],
+      "district_key": "전북특별자치도|임실군",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_seoul_39054_p045",
+      "region": "seoul",
+      "district": "동작구",
+      "precinct_csv": "상도제1동제2투",
+      "image_url": "gs://k21-tally-archive/seoul/39054/p-045.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.7805017103762828,
+          "x1": 0.9483870967741935,
+          "y1": 0.8665906499429875,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5943548387096774,
+          "y0": 0.3295324971493729,
+          "x1": 0.9451612903225807,
+          "y1": 0.5992018244013683,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.592741935483871,
+          "y0": 0.22405929304446978,
+          "x1": 0.9443548387096774,
+          "y1": 0.29076396807297605,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.6573546180159635,
+          "x1": 0.9467741935483871,
+          "y1": 0.7212086659064995,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04032258064516129,
+          "y0": 0.22519954389965793,
+          "x1": 0.5830645161290322,
+          "y1": 0.29304446978335236,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.042741935483870966,
+          "y0": 0.33010262257696693,
+          "x1": 0.5838709677419355,
+          "y1": 0.6014823261117446,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.78129035,
+        0.87596775
+      ],
+      "extracted": {
+        "이재명": 814,
+        "김문수": 1330,
+        "이준석": 417,
+        "권영국": 42,
+        "송진호": 5
+      },
+      "notes": [],
+      "district_key": "서울특별시|동작구",
+      "unit_match": {
+        "unit": [
+          "서울특별시",
+          "동작구",
+          null,
+          "상도제1동제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 814,
+        "김문수": 1330,
+        "이준석": 417,
+        "권영국": 42,
+        "송진호": 5
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gangwon_39172_p028",
+      "region": "gangwon",
+      "district": "화천군",
+      "precinct_csv": "사내면제2투",
+      "image_url": "gs://k21-tally-archive/gangwon/39172/p-28.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.6048387096774194,
+          "y0": 0.3346636259977195,
+          "x1": 0.9580645161290322,
+          "y1": 0.6060433295324972,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.6040322580645161,
+          "y0": 0.22976054732041049,
+          "x1": 0.9580645161290322,
+          "y1": 0.2970353477765108,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.049193548387096775,
+          "y0": 0.6630558722919042,
+          "x1": 0.9580645161290322,
+          "y1": 0.725769669327252,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.050806451612903224,
+          "y0": 0.22805017103762829,
+          "x1": 0.5943548387096774,
+          "y1": 0.29646522234891676,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04838709677419355,
+          "y0": 0.7896237172177879,
+          "x1": 0.957258064516129,
+          "y1": 0.8722919042189282,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.05161290322580645,
+          "y0": 0.33409350057012543,
+          "x1": 0.5935483870967742,
+          "y1": 0.604903078677309,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7933871,
+        0.863871
+      ],
+      "extracted": {
+        "이재명": 92,
+        "김문수": 227,
+        "이준석": 12,
+        "권영국": 3,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "강원특별자치도|화천군",
+      "unit_match": {
+        "unit": [
+          "강원특별자치도",
+          "화천군",
+          null,
+          "사내면제2투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 92,
+        "김문수": 227,
+        "이준석": 12,
+        "권영국": 3,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_incheon_39087_p029",
+      "region": "incheon",
+      "district": "미추홀구",
+      "precinct_csv": "관교동제1투",
+      "image_url": "gs://k21-tally-archive/incheon/39087/p-029.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5950080515297906,
+          "y0": 0.3247863247863248,
+          "x1": 0.9460547504025765,
+          "y1": 0.5954415954415955,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5942028985507246,
+          "y0": 0.21937321937321938,
+          "x1": 0.9444444444444444,
+          "y1": 0.28603988603988606,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.04508856682769726,
+          "y0": 0.2170940170940171,
+          "x1": 0.5845410628019324,
+          "y1": 0.28603988603988606,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04589371980676329,
+          "y0": 0.6524216524216524,
+          "x1": 0.9476650563607085,
+          "y1": 0.7162393162393162,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04669887278582931,
+          "y0": 0.7772079772079772,
+          "x1": 0.9492753623188406,
+          "y1": 0.8632478632478633,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04669887278582931,
+          "y0": 0.3247863247863248,
+          "x1": 0.5845410628019324,
+          "y1": 0.5937321937321938,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7832448,
+        0.8777858
+      ],
+      "extracted": {
+        "이재명": 448,
+        "김문수": 1052,
+        "이준석": 98,
+        "권영국": 15,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "인천광역시|미추홀구",
+      "unit_match": {
+        "unit": [
+          "인천광역시",
+          "미추홀구",
+          null,
+          "관교동제1투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 448,
+        "김문수": 1052,
+        "이준석": 98,
+        "권영국": 15,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_gwangju_x5e70d3_p020",
+      "region": "gwangju",
+      "district": "광산구",
+      "precinct_csv": "삼도동",
+      "image_url": "gs://k21-tally-archive/gwangju/x5e70d3/p-20.jpg",
+      "docai_cached": false,
+      "scope": "early",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5983870967741935,
+          "y0": 0.33257273245864233,
+          "x1": 0.9524193548387097,
+          "y1": 0.6035367940673132,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5967741935483871,
+          "y0": 0.22703936109526526,
+          "x1": 0.95,
+          "y1": 0.29435253850541926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.0467741935483871,
+          "y0": 0.6617227609811751,
+          "x1": 0.9548387096774194,
+          "y1": 0.7239018824871648,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04516129032258064,
+          "y0": 0.22703936109526526,
+          "x1": 0.5870967741935483,
+          "y1": 0.29492298916143755,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04838709677419355,
+          "y0": 0.7860810039931546,
+          "x1": 0.9556451612903226,
+          "y1": 0.8767826583000571,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04758064516129032,
+          "y0": 0.33314318311466057,
+          "x1": 0.5879032258064516,
+          "y1": 0.602966343411295,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.8014516,
+        0.863871
+      ],
+      "extracted": {
+        "이재명": 987,
+        "김문수": 54,
+        "이준석": 32,
+        "권영국": 10,
+        "송진호": 0
+      },
+      "notes": [],
+      "district_key": "광주광역시|광산구",
+      "unit_match": {
+        "unit": null,
+        "n_hits": 0
+      }
+    },
+    {
+      "page_id": "e21_daegu_39080_p057",
+      "region": "daegu",
+      "district": "북구",
+      "precinct_csv": "무태조야동제8투",
+      "image_url": "gs://k21-tally-archive/daegu/39080/p-057.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.045124899274778404,
+          "y0": 0.7772079772079772,
+          "x1": 0.9500402900886382,
+          "y1": 0.8632478632478633,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.59709911361805,
+          "y0": 0.32364672364672364,
+          "x1": 0.9508460918614021,
+          "y1": 0.5937321937321938,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5954875100725222,
+          "y0": 0.21766381766381768,
+          "x1": 0.9484286865431104,
+          "y1": 0.28547008547008546,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.0443190975020145,
+          "y0": 0.6512820512820513,
+          "x1": 0.9500402900886382,
+          "y1": 0.7139601139601139,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.0443190975020145,
+          "y0": 0.21652421652421652,
+          "x1": 0.5858178887993554,
+          "y1": 0.28547008547008546,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.48831587429492346,
+          "y0": 0.7230769230769231,
+          "x1": 0.9508460918614021,
+          "y1": 0.7572649572649572,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        },
+        {
+          "label": "table",
+          "x0": 0.045124899274778404,
+          "y0": 0.3230769230769231,
+          "x1": 0.5858178887993554,
+          "y1": 0.5925925925925926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "6"
+        }
+      ],
+      "derived_column": [
+        0.79032635,
+        0.8639847
+      ],
+      "extracted": {
+        "이재명": 659,
+        "김문수": 1629,
+        "이준석": 227,
+        "권영국": 24,
+        "송진호": 5
+      },
+      "notes": [],
+      "district_key": "대구광역시|북구",
+      "unit_match": {
+        "unit": [
+          "대구광역시",
+          "북구",
+          null,
+          "무태조야동제8투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 659,
+        "김문수": 1629,
+        "이준석": 227,
+        "권영국": 24,
+        "송진호": 5
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_ulsan_39108_p032",
+      "region": "ulsan",
+      "district": "북구",
+      "precinct_csv": "농소2동제7투",
+      "image_url": "gs://k21-tally-archive/ulsan/39108/p-32.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5922643029814666,
+          "y0": 0.3207977207977208,
+          "x1": 0.9468170829975826,
+          "y1": 0.5925925925925926,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5898468976631749,
+          "y0": 0.2153846153846154,
+          "x1": 0.9427880741337631,
+          "y1": 0.2831908831908832,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.0443190975020145,
+          "y0": 0.6507122507122507,
+          "x1": 0.9492344883158743,
+          "y1": 0.7156695156695156,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.038678485092667206,
+          "y0": 0.21652421652421652,
+          "x1": 0.5793714746172441,
+          "y1": 0.28603988603988606,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.04593070104754231,
+          "y0": 0.7766381766381767,
+          "x1": 0.9508460918614021,
+          "y1": 0.8769230769230769,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.041901692183722805,
+          "y0": 0.3230769230769231,
+          "x1": 0.5817888799355359,
+          "y1": 0.5948717948717949,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.795967,
+        0.8631789
+      ],
+      "extracted": {
+        "이재명": 989,
+        "김문수": 989,
+        "이준석": 188,
+        "권영국": 50,
+        "송진호": 5
+      },
+      "notes": [],
+      "district_key": "울산광역시|북구",
+      "unit_match": {
+        "unit": [
+          "울산광역시",
+          "북구",
+          null,
+          "농소2동제7투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 989,
+        "김문수": 989,
+        "이준석": 188,
+        "권영국": 50,
+        "송진호": 5
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    },
+    {
+      "page_id": "e21_busan_39071_p028",
+      "region": "busan",
+      "district": "금정구",
+      "precinct_csv": "장전제1동제3투",
+      "image_url": "gs://k21-tally-archive/busan/39071/p-28.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.04116222760290557,
+          "y0": 0.7783505154639175,
+          "x1": 0.9467312348668281,
+          "y1": 0.86368843069874,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.5956416464891041,
+          "y0": 0.3247422680412371,
+          "x1": 0.9459241323648103,
+          "y1": 0.5962199312714777,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5948345439870864,
+          "y0": 0.21935853379152348,
+          "x1": 0.9459241323648103,
+          "y1": 0.28579610538373423,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.04439063761097659,
+          "y0": 0.218213058419244,
+          "x1": 0.5851493139628733,
+          "y1": 0.2852233676975945,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.041969330104923326,
+          "y0": 0.6540664375715922,
+          "x1": 0.9467312348668281,
+          "y1": 0.718213058419244,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04519774011299435,
+          "y0": 0.3230240549828179,
+          "x1": 0.585956416464891,
+          "y1": 0.5956471935853379,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.7916102,
+        0.8742494
+      ],
+      "extracted": {
+        "이재명": 294,
+        "김문수": 838,
+        "이준석": 134,
+        "권영국": 5,
+        "송진호": null
+      },
+      "notes": [
+        "송진호: no number in column on anchor row",
+        "송진호: docai missed, gemini cross-check has 0"
+      ],
+      "district_key": "부산광역시|금정구",
+      "unit_match": {
+        "unit": [
+          "부산광역시",
+          "금정구",
+          null,
+          "장전제1동제3투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 294,
+        "김문수": 838,
+        "이준석": 134,
+        "권영국": 5,
+        "송진호": 0
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": null
+      }
+    },
+    {
+      "page_id": "e21_daejeon_39102_p113",
+      "region": "daejeon",
+      "district": "서구",
+      "precinct_csv": "탄방동제4투",
+      "image_url": "gs://k21-tally-archive/daejeon/39102/p-113.jpg",
+      "docai_cached": false,
+      "scope": "precinct",
+      "sam_cached": false,
+      "boxes": [
+        {
+          "label": "table",
+          "x0": 0.5951612903225807,
+          "y0": 0.22063854047890535,
+          "x1": 0.9483870967741935,
+          "y1": 0.2879133409350057,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "0"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.7822120866590649,
+          "x1": 0.9508064516129032,
+          "y1": 0.8671607753705816,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "1"
+        },
+        {
+          "label": "table",
+          "x0": 0.5959677419354839,
+          "y0": 0.32668187001140253,
+          "x1": 0.9491935483870968,
+          "y1": 0.5986316989737742,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "2"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.6573546180159635,
+          "x1": 0.9508064516129032,
+          "y1": 0.7189281641961232,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "3"
+        },
+        {
+          "label": "table",
+          "x0": 0.043548387096774194,
+          "y0": 0.22234891676168758,
+          "x1": 0.5854838709677419,
+          "y1": 0.28905359179019385,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "4"
+        },
+        {
+          "label": "table",
+          "x0": 0.04435483870967742,
+          "y0": 0.3278221208665906,
+          "x1": 0.5854838709677419,
+          "y1": 0.5986316989737742,
+          "score": null,
+          "source": "sam-3.1",
+          "object_id": "5"
+        }
+      ],
+      "derived_column": [
+        0.79419356,
+        0.86790324
+      ],
+      "extracted": {
+        "이재명": 593,
+        "김문수": 647,
+        "이준석": 109,
+        "권영국": 16,
+        "송진호": 1
+      },
+      "notes": [],
+      "district_key": "대전광역시|서구",
+      "unit_match": {
+        "unit": [
+          "대전광역시",
+          "서구",
+          null,
+          "탄방동제4투",
+          "precinct"
+        ],
+        "n_hits": 1
+      },
+      "published": {
+        "이재명": 593,
+        "김문수": 647,
+        "이준석": 109,
+        "권영국": 16,
+        "송진호": 1
+      },
+      "cell_match": {
+        "이재명": true,
+        "김문수": true,
+        "이준석": true,
+        "권영국": true,
+        "송진호": true
+      }
+    }
+  ]
+}

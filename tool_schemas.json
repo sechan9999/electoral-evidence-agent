@@ -1,0 +1,201 @@
+{
+ "error_contract": {
+  "AMBIGUOUS_DISTRICT": "A sigungu name alone matches several districts (e.g. '남구'); response lists the district_keys so the agent can ask for the sido.",
+  "DATA_CHECK_FAILED": "A deterministic check failed (shares sum, margin arithmetic, swing arithmetic); the figure is blocked and the error surfaces in the answer.",
+  "NOT_FOUND": "Unknown district or candidate; response includes valid suggestions at that level so the agent can retry once with a canonical value.",
+  "NO_MATCHING_DISTRICT_ACROSS_ELECTIONS": "District key exists in one election but not the other (cannot happen with the 247 shared keys; kept as a guard).",
+  "PRECINCT_NOT_FOUND": "District exists but the precinct name does not. The agent must NOT silently answer at district level; it may offer the district figure only if the user accepts the level change. Sentences: EN: 'No precinct with that name was found in this district. The figures below are for the whole district, not that precinct — say so if you use them.' KO: '해당 구역에서 그 이름의 투표구를 찾지 못했습니다. 아래 수치는 해당 투표구가 아니라 구역 전체 수치입니다. 사용한다면 그 점을 밝혀야 합니다.'"
+ },
+ "note": "Muse Spark function-calling contract, v1 (2026-10-27). Parameter semantics are fixed here; adapt the envelope to Meta's exact format at integration. Implementation: kr_tools.py in this folder. Citations are archive index pages (HK decision 2026-10-27); per-figure tally-sheet URLs are NOT promised in v1. Comparison unit is district_key (247 harmonized units, identical across all four elections).",
+ "open_items": [
+  "Bilingual agent prompts (KO/EN) for the agent loop — separate from tool schemas.",
+  "Muse Spark function-calling envelope adaptation at integration (Mon 11/02 UI track)."
+ ],
+ "tools": [
+  {
+   "description": "Official results for one district (aggregate over all its units) or one precinct in one election. Returns candidate votes and shares, total valid votes, electorate, votes cast, turnout, and the archive index-page citation. Use for any 'what happened in X' question.",
+   "name": "precinct_lookup",
+   "parameters": {
+    "note": "Give district_key, or sido+sigungu, or sigungu. Unknown precinct returns PRECINCT_NOT_FOUND (never silently substituted with the district aggregate).",
+    "properties": {
+     "district_key": {
+      "description": "Harmonized comparison unit, 'sido|sigungu' of the mapped unit, e.g. '경기도|부천시'. Preferred when the agent already has a key.",
+      "type": "string"
+     },
+     "election": {
+      "description": "18=2012, 19=2017, 20=2022, 21=2025",
+      "enum": [
+       18,
+       19,
+       20,
+       21
+      ],
+      "type": "integer"
+     },
+     "precinct": {
+      "description": "Precinct name as published, e.g. '가락1동제1투'. Omit for a district aggregate.",
+      "type": "string"
+     },
+     "sido": {
+      "description": "Korean sido, full or short form, e.g. '경기도' or '경기'.",
+      "type": "string"
+     },
+     "sigungu": {
+      "description": "Published sigungu name, e.g. '송파구'. Alone it may be ambiguous (see AMBIGUOUS_DISTRICT).",
+      "type": "string"
+     }
+    },
+    "required": [
+     "election"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "description": "Vote-share change (percentage points) between two elections. District mode: full candidate table plus winner/margin/turnout deltas and bloc shares/swings (보수/진보/기타, BLOC_MAP in kr_tools.py) for one district_key. In district mode, a candidate who did not run in one election has share None and swing_pp None on that side (entry/exit is not swing; fixed 2026-10-27 — previously 0.0% fabricated a swing). Ranking mode: district_keys ranked by one candidate's swing, or by one bloc's share swing (bloc votes summed over the bloc's members in each election). match_level is always 'district_key' in v1; precinct-level cross-election matching is not attempted because precinct identity is not stable across elections. Bloc mapping is candidate-based, never party-based: party names changed and split, and the 2017 Saenuri (Cho Won-jin) is a different party from the 2012 Saenuri (Park Geun-hye) despite the shared name. (The table's 20th-election parties were filled from HK's registration record, 2026-10-27; the published 20th file itself has name-only headers.)",
+   "name": "swing_calculation",
+   "parameters": {
+    "properties": {
+     "bloc": {
+      "description": "Ranking mode (alternative to candidate): one of '보수', '진보', '기타'. Blocs are defined for every election, so there is no absent/entry concept in bloc mode.",
+      "enum": [
+       "보수",
+       "진보",
+       "기타"
+      ],
+      "type": "string"
+     },
+     "candidate": {
+      "description": "Ranking mode: candidate person name, e.g. '심상정'. A swing is only computed where the candidate ran in BOTH elections; districts where they ran in only one are excluded by default (counted in excluded_absent_count) because a 0-to-X jump is an entry effect, not a swing.",
+      "type": "string"
+     },
+     "direction": {
+      "default": "largest_absolute",
+      "enum": [
+       "largest_gain",
+       "largest_loss",
+       "largest_absolute"
+      ],
+      "type": "string"
+     },
+     "district_key": {
+      "description": "District mode: the harmonized unit.",
+      "type": "string"
+     },
+     "election_a": {
+      "enum": [
+       18,
+       19,
+       20,
+       21
+      ],
+      "type": "integer"
+     },
+     "election_b": {
+      "enum": [
+       18,
+       19,
+       20,
+       21
+      ],
+      "type": "integer"
+     },
+     "include_absent": {
+      "default": false,
+      "description": "Candidate mode only: if true, include districts where the candidate ran in only one election, flagged absent_in_a/absent_in_b.",
+      "type": "boolean"
+     },
+     "scope_sido": {
+      "description": "Ranking mode: limit ranking to one sido.",
+      "type": "string"
+     },
+     "sido": {
+      "type": "string"
+     },
+     "sigungu": {
+      "type": "string"
+     },
+     "top_n": {
+      "default": 10,
+      "maximum": 50,
+      "minimum": 1,
+      "type": "integer"
+     }
+    },
+    "required": [
+     "election_a",
+     "election_b"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "description": "Electorate, votes cast, and turnout rate for one election and one region. Turnout is SUM(votes_cast)/SUM(electorate) over distinct units in scope, which reproduces published turnouts exactly (verified at district and national level). Omit the district for the national figure.",
+   "name": "turnout",
+   "parameters": {
+    "properties": {
+     "district_key": {
+      "type": "string"
+     },
+     "election": {
+      "enum": [
+       18,
+       19,
+       20,
+       21
+      ],
+      "type": "integer"
+     },
+     "precinct": {
+      "description": "Omit for a district or national aggregate.",
+      "type": "string"
+     },
+     "sido": {
+      "type": "string"
+     },
+     "sigungu": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "election"
+    ],
+    "type": "object"
+   }
+  },
+  {
+   "description": "Winning margin for one election and one region: winner, runner-up, margin in votes and percentage points, plus total valid votes and turnout.",
+   "name": "margin",
+   "parameters": {
+    "properties": {
+     "district_key": {
+      "type": "string"
+     },
+     "election": {
+      "enum": [
+       18,
+       19,
+       20,
+       21
+      ],
+      "type": "integer"
+     },
+     "precinct": {
+      "description": "Omit for a district or national aggregate.",
+      "type": "string"
+     },
+     "sido": {
+      "type": "string"
+     },
+     "sigungu": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "election"
+    ],
+    "type": "object"
+   }
+  }
+ ]
+}
