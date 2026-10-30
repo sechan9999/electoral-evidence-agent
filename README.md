@@ -6,7 +6,9 @@ results database** — never from the model's memory — and every figure cites 
 archive index page. Output is factual and sourced, with no recommendations or evaluations
 of officials, parties, or policy positions.
 
-- **Live demo:** https://app.ohmycodellc.com/kr/agent
+- **Live demo:** https://app.ohmycodellc.com/kr?lang=en
+   - https://app.ohmycodellc.com/kr/agent?lang=en
+   - https://app.ohmycodellc.com/kr/agent
 - **Demo video:** https://www.youtube.com/watch?v=v14OXlEQy0s
 - **Deployed app (UI + TypeScript tool port + Gemini fallback):**
   https://github.com/sechan9999/us-election-insight-hub (`app/kr/agent`, `app/api/agent`)
