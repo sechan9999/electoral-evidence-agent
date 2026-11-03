@@ -62,6 +62,63 @@ python3 kr_tools.py swing --election_a 19 --election_b 20 --candidate 심상정 
   tests tool use, formatting, and guardrails — not independent data verification (that is
   the SAM sheet evaluation above).
 
+## Counting units, bloc keys, and source headers
+
+### Counting units — why the counts differ
+- 투표구 (precinct): the basic unit in the NEC result files — 21st: 14,295
+  regular precinct rows; 20th: 14,464.
+- 관내사전 (early-vote unit): one row per early-vote station, counted
+  separately — 21st: 3,554; 20th: 3,510. Subtotal (소계) and total rows are
+  excluded from loads, or district aggregates would double-count.
+- 개표단위 (counting unit, 19th sorter file only): 13,949 rows with
+  행구분 = 투표구. These are ballot-sorter counting units, not precincts;
+  the 19th NEC vote file is separate (22,214 rows).
+- 구·시·군 (district): administrative district — 18th: 251; 21st: 252;
+  20th: 224 collected (26 districts absent, including all of Busan, Jeju,
+  and Sejong).
+- district_key (harmonized comparison unit): 247 units, identical across
+  all four elections. Merged/renamed units are resolved (e.g. 청주시권,
+  부천시 3구 합산, 화성시 갑+을 합산, 여주군→여주시, 인천 남구→미추홀구).
+  Cross-election comparison is district_key-only.
+
+### Bloc keys
+Three blocs, candidate-based (not party-based): 보수 / 진보 / 기타 — no
+centrist bloc. Explicit assignments (HK decisions 2026-10-27): 안철수,
+유승민, 조원진, 이준석 → 보수; 권영국, 김재연 → 진보; 이재오 → 보수
+(conservative lineage); all other candidates → 기타. The full 36-entry
+map is BLOC_MAP in kr_tools.py; an unmapped candidate fails loudly
+(MISSING_BLOC) instead of vanishing. National bloc shares: 2012 보수
+51.56 / 진보 48.02 / 기타 0.42; 2017 52.37 / 47.26 / 0.36; 2022 48.64 /
+50.32 / 1.04; 2025 49.49 / 50.40 / 0.10.
+
+### Source CSV headers (wide format)
+Every published file is one row per reporting unit with one column per
+candidate; the long kr_precinct form is a melt of these columns, not a
+published shape. Headers as documented in
+`precinct_build/kr_precinct_load_spec_draft.md`:
+- 21st (22,686 rows): 시도, 구시군, 읍면동, 투표구, 선거인수, 투표수,
+  더불어민주당 이재명, 국민의힘 김문수, 개혁신당 이준석, 민주노동당 권영국,
+  무소속 송진호, 계, 무효, 기권.
+- 20th (22,752 rows): same shape, candidate columns name-only — 이재명,
+  윤석열, 심상정, 오준호, 허경영, 이백윤, 옥은호, 김경재, 조원진, 김재연,
+  이경희, 김민찬 — then 계, 무효, 기권.
+- 19th sorter (18,137 rows): 행구분, 시도, 구시군, 종류, 읍면동, 투표구,
+  계_계, 계_유효소계, 계_문재인, 계_홍준표, 계_안철수, 계_유승민, 계_심상정,
+  계_기타, 계_무효, then classifier/unclassified split columns. Load
+  filter: 행구분 = 투표구 (13,949 rows).
+- 19th NEC votes (22,214 rows): 시도, 구시군, 읍면동, 투표구, 선거인수,
+  투표수, 13 candidate columns (더불어민주당 문재인, 자유한국당 홍준표,
+  국민의당 안철수, 바른정당 유승민, 정의당 심상정 + 8 more), 계, 무효, 기권.
+- 18th sorter (251 rows): #, 시도명, 구시군명, 선거인수, 계_총투표수,
+  계_박근혜, 계_문재인, 계_기타후보, 계_무효, then classifier split + age +
+  K columns.
+- 18th NEC (17,871 data rows): 시도, 구시군, 읍면동, 투표구, 선거인수,
+  투표수, 6 candidate columns (새누리당 박근혜, 민주통합당 문재인, 무소속
+  박종선·김소연·강지원·김순자), 계, 무효, 기권.
+- No file contains a URL column — hence citations are archive index
+  pages, not per-figure sheet links. Turnout is computed
+  (투표수 / 선거인수), not published as a rate.
+
 ## Status
 
 Updated 2026-11-02: 18th-archive mirror figure (73,363 files) added to the
