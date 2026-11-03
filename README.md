@@ -9,7 +9,7 @@ of officials, parties, or policy positions.
 - **Live demo:** https://app.ohmycodellc.com/kr?lang=en
    - https://app.ohmycodellc.com/kr/agent?lang=en
    - https://app.ohmycodellc.com/kr/agent
-- **Demo video:** https://www.youtube.com/watch?v=v14OXlEQy0s
+- **Demo video:** https://youtu.be/JzfRxSYloVo
 - **Deployed app (UI + TypeScript tool port + Gemini fallback):**
   https://github.com/sechan9999/us-election-insight-hub (`app/kr/agent`, `app/api/agent`)
 
@@ -125,7 +125,7 @@ Updated 2026-11-02: 18th-archive mirror figure (73,363 files) added to the
 pre-existing work above; demo video is public; portal submission planned
 2026-11-03.
 
-- Demo video (public): https://www.youtube.com/watch?v=v14OXlEQy0s
+- Demo video (public): https://youtu.be/JzfRxSYloVo
 - Portal submission: planned 2026-11-03.
 
 ## Secrets
