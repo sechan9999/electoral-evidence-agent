@@ -29,7 +29,10 @@ of officials, parties, or policy positions.
 ## What is NOT in this repo (pre-existing work, not claimed as hackathon-built)
 
 - The Electoral Insights Hub platform itself and the 18th–21st tally-sheet archives,
-  including the 36,342-page digitization completed Oct 24, 2026.
+  including the 36,342-page digitization completed Oct 24, 2026. The 18th-election
+  archive also includes 73,363 scanned original count documents from all 251
+  districts, mirrored with Project Boo's 2012-archive permission and attribution
+  (live Oct 24, 2026).
 - The National Election Commission source files behind `kr_precinct` (see the load spec
   for provenance; the built table lives in BigQuery, not in this repo).
 - Tally-sheet images and SAM/DocAI per-page caches (bulky; the matched report above is
@@ -58,6 +61,15 @@ python3 kr_tools.py swing --election_a 19 --election_b 20 --candidate 심상정 
 - Eval harness: gold answers are computed with tool-identical semantics, so the harness
   tests tool use, formatting, and guardrails — not independent data verification (that is
   the SAM sheet evaluation above).
+
+## Status
+
+Updated 2026-11-02: 18th-archive mirror figure (73,363 files) added to the
+pre-existing work above; demo video is public; portal submission planned
+2026-11-03.
+
+- Demo video (public): https://www.youtube.com/watch?v=v14OXlEQy0s
+- Portal submission: planned 2026-11-03.
 
 ## Secrets
 
